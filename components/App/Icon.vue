@@ -6,7 +6,7 @@ interface Props {
 const props = defineProps<Props>()
 </script>
 <template>
-  <span>
-    <Icon :icon="props.iconName" />
-  </span>
+
+    <Icon :icon="props.iconName" class="text-black text-[2rem]" />
+
 </template>
