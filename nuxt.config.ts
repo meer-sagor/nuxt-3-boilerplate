@@ -40,4 +40,13 @@ export default {
     ],
     '@vueuse/nuxt',
   ],
+  typescript: {
+    typeCheck: true,
+    tsConfig: {
+      compilerOptions: {
+        noImplicitAny: false,
+      },
+      exclude: ['node_modules'],
+    },
+  },
 }

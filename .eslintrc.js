@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     'vue/multi-word-component-names': 'off',
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'warn',
+    '@typescript-eslint/no-unused-vars': 'off',
+    'vue/no-v-model-argument': 'off',
   },
 }
