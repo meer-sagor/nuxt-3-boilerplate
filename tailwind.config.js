@@ -14,7 +14,6 @@ module.exports = {
     `app.{js,ts,vue}`,
   ],
   theme: {
-    extend: {
       colors: {
         primary: '#6A24FF',
         primaryLight: '#0090E3',
@@ -42,7 +41,7 @@ module.exports = {
         space34: '3.4rem',
         space40: '4rem',
       },
-    },
+
     fontFamily: {
       nunito: ['Nunito', 'sans-serif'],
       rubik: ['Rubik', 'sans-serif'],

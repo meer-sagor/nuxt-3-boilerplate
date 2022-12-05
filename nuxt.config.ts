@@ -2,6 +2,9 @@
 export default {
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
       title: 'nuxt-3-boilerplate',
       meta: [
         { charset: 'utf-8' },
@@ -39,12 +42,19 @@ export default {
       },
     ],
     '@vueuse/nuxt',
+    '@nuxtjs/html-validator',
+    '@morev/vue-transitions/nuxt',
   ],
+  vueTransitions: {
+    // The same options as in the plugin itself.
+    // You will get an autocomplete using Nuxt 3.
+  },
   typescript: {
     typeCheck: true,
     tsConfig: {
       compilerOptions: {
         noImplicitAny: false,
+        types: ['@morev/vue-transitions/types/volar'],
       },
       exclude: ['node_modules'],
     },
