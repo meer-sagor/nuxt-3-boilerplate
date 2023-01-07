@@ -33,7 +33,6 @@
     "@morev/vue-transitions": "^2.3.4",
     "@nuxt/image": "^0.7.1",
     "@nuxtjs/html-validator": "^1.2.1",
-    "@pinia/nuxt": "^0.4.1",
-    "@sidebase/nuxt-auth": "^0.3.3"
+    "@pinia/nuxt": "^0.4.1"
   }
 }
