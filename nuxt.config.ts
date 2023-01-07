@@ -44,12 +44,12 @@ export default {
     '@vueuse/nuxt',
     '@nuxtjs/html-validator',
     '@morev/vue-transitions/nuxt',
+    'nuxt-icon',
   ],
-  vueTransitions: {
-    // The same options as in the plugin itself.
-    // You will get an autocomplete using Nuxt 3.
-  },
+  vueTransitions: {},
+
   typescript: {
+    shim: false,
     typeCheck: true,
     tsConfig: {
       compilerOptions: {
